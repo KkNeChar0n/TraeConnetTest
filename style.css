@@ -155,3 +155,91 @@ footer {
         padding: 1.5rem;
     }
 }
+
+/* 数组计算器样式 */
+.array-calculator {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid #eee;
+}
+
+.input-section {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 0.8rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.input-section input[type="text"] {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: border-color 0.3s ease;
+}
+
+.input-section input[type="text"]:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+#calculateBtn {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 0.5rem;
+}
+
+#calculateBtn:hover {
+    background-color: #229954;
+}
+
+.result-section {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 5px solid #3498db;
+}
+
+.result-section h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+#result {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+/* 响应式设计：数组计算器 */
+@media (max-width: 768px) {
+    .array-calculator h2 {
+        font-size: 1.5rem;
+    }
+    
+    .input-section, .result-section {
+        padding: 1rem;
+    }
+    
+    #calculateBtn {
+        width: 100%;
+        padding: 0.8rem;
+    }
+}
