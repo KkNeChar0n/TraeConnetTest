@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的静态网页</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- 修改CSS引用 -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- 修改JS引用 -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
 </head>
 <body>
     <header>
@@ -49,6 +53,5 @@
         <p>&copy; 2024 我的静态网页. 保留所有权利。</p>
     </footer>
     
-    <script src="script.js"></script>
 </body>
 </html>
