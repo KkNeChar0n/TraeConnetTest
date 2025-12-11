@@ -9,17 +9,17 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #fce4ec;
     transition: background-color 0.3s ease;
 }
 
 /* 头部样式 */
 header {
-    background-color: #3498db;
+    background-color: #e91e63;
     color: white;
     text-align: center;
     padding: 2rem 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(233, 30, 99, 0.1);
 }
 
 header h1 {
@@ -42,7 +42,7 @@ main {
 }
 
 .content h2 {
-    color: #3498db;
+    color: #e91e63;
     margin-bottom: 1rem;
     font-size: 2rem;
 }
@@ -61,7 +61,7 @@ main {
 }
 
 .feature h3 {
-    color: #2c3e50;
+    color: #c2185b;
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
@@ -79,7 +79,7 @@ main {
 
 .feature li:before {
     content: "✓";
-    color: #27ae60;
+    color: #ec407a;
     font-weight: bold;
     position: absolute;
     left: 0;
@@ -92,7 +92,7 @@ main {
 }
 
 #changeColorBtn {
-    background-color: #3498db;
+    background-color: #e91e63;
     color: white;
     border: none;
     padding: 1rem 2rem;
@@ -103,19 +103,19 @@ main {
 }
 
 #changeColorBtn:hover {
-    background-color: #2980b9;
+    background-color: #c2185b;
 }
 
 #message {
     margin-top: 1.5rem;
     font-size: 1.2rem;
-    color: #27ae60;
+    color: #ec407a;
     font-weight: bold;
 }
 
 /* 页脚样式 */
 footer {
-    background-color: #2c3e50;
+    background-color: #c2185b;
     color: white;
     text-align: center;
     padding: 1.5rem 0;
@@ -174,7 +174,7 @@ footer {
     display: block;
     margin-bottom: 0.8rem;
     font-weight: bold;
-    color: #2c3e50;
+    color: #c2185b;
 }
 
 .input-section input[type="text"] {
@@ -189,12 +189,12 @@ footer {
 
 .input-section input[type="text"]:focus {
     outline: none;
-    border-color: #3498db;
-    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+    border-color: #e91e63;
+    box-shadow: 0 0 0 3px rgba(233, 30, 99, 0.1);
 }
 
 #calculateBtn {
-    background-color: #27ae60;
+    background-color: #ec407a;
     color: white;
     border: none;
     padding: 1rem 2rem;
@@ -206,18 +206,18 @@ footer {
 }
 
 #calculateBtn:hover {
-    background-color: #229954;
+    background-color: #c2185b;
 }
 
 .result-section {
-    background-color: #f9f9f9;
+    background-color: #f8bbd0;
     padding: 1.5rem;
     border-radius: 8px;
-    border-left: 5px solid #3498db;
+    border-left: 5px solid #e91e63;
 }
 
 .result-section h3 {
-    color: #2c3e50;
+    color: #c2185b;
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }

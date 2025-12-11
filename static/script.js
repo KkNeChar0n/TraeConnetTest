@@ -6,12 +6,12 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // 定义颜色数组
     const colors = [
-        '#f4f4f4',  // 默认颜色
-        '#e8f4f8',  // 浅蓝色
-        '#f8f4e8',  // 浅黄色
-        '#f4e8f8',  // 浅紫色
-        '#e8f8f4',  // 浅绿色
-        '#fff4f4'   // 浅红色
+        '#fce4ec',  // 默认粉色
+        '#f8bbd0',  // 浅粉色
+        '#f48fb1',  // 中等粉色
+        '#f06292',  // 深粉色
+        '#ec407a',  // 鲜艳粉色
+        '#e91e63'   // 深粉色
     ];
     
     let currentColorIndex = 0;
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
         message.textContent = '背景颜色已更改！';
         
         // 重置消息样式
-        message.style.color = '#27ae60';
+        message.style.color = '#ec407a';
         
         // 3秒后恢复默认消息
         setTimeout(function() {
